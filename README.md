@@ -7,3 +7,6 @@ CSS-kirjasto/FW-harkka
   Haluan ratkaisun responsiiviseen toteutukseen, ja Foundationilta löytyi hyviä ratkaisuja siihen. Minulla ei vielä ole kovin
   selkeää kuvaa harkkatyön aiheesta, joten tarvetta on tällä hetkellä melko vaikea arvioida, mutta tiedän tarvitsevani apua
   responsiivisuuden kanssa.
+  
+Viikon 41 bs-vakioteema harjoitus:
+  http://student.labranet.jamk.fi/~K8237/web-visualisointi/harkkav41/bs-vakio-teemat/harkkav41.html
