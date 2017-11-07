@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsiiviset viinit</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+
+<body>
+    <content>
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Punaviini</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Valkoviini</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Roseviini</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kuohuviini</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="wine4.png" alt="trwine"/>
+        <h1 class="h1">Responsiiviset viinit</h1>
+    </header>
+
+    <main>
+        <img src="wine1.jpg" alt="wine1" class="img-thumbnail"/>
+        <h2 class="h3">Viini</h2>
+        <p class="lead">Viini on tuoreista viinirypäleistä tai rypälemehusta käyttämällä valmistettu mieto alkoholijuoma. Viineissä on alkoholia yleensä 10–15 prosenttia, ja niiden alkoholi on yksinomaan käymisteitse muodostunut. </p>
+    </main>
+
+    <aside>
+      <h2 class="h4">Lajit</h2>
+      <p class="lead">Viinejä ovat punaviini, valkoviini ja roseeviini sekä hiilidioksidia sisältävät kuohuviinit. Väkevät viinit, kuten sherry, portviini ja vermutti, valmistetaan viinistä lisäämällä siihen tislattua väkiviinaa ja usein myös rypälemehua</p>
+    </aside>
+
+    <article>
+        <img src="wine2.jpg" alt="wine2" class="img-thumbnail"/>
+        <h3 class="h4">Historia</h3>
+        <p class="lead">Vanhimmat todisteet viinistä ovat löytyneet Zagrosvuorten pohjoisrinteiltä nykyisen Iranin alueelta yli 7 000 vuoden takaa. Kaukasukselta Kaspianmeren rannalta on tehty sitäkin vanhempia löytöjä, mutta niissä on voinut olla kyse luonnonvaraisesta eikä viljellystä viinirypäleestä</p>
+    </article>
+
+    <article>
+        <img src="rypale.jpg" alt="wine3" class="img-thumbnail"/>
+        <h3 class="h4">Rypäleet</h3>
+        <p class="lead">Rypälelajike, josta viini tehdään, määrää aromin ja maun peruslaadun. Merkittävimmät tummat rypälelajikkeet ovat Cabernet Sauvignon, Merlot, Syrah (Euroopan ulkopuolella nimellä Shiraz) ja Pinot Noir ja merkittävimmät vaaleat rypälelajikkeet Chardonnay, Sauvignon Blanc ja Riesling.</p>
+    </article>
+
+    <article>
+        <img src="wine6.jpg" alt="wine6" class="img-thumbnail" />
+        <h3 class="h4">Viljely</h3>
+        <p class="lead">Viiniköynnös viihtyy köyhässä maaperässä; liian rikkaassa maaperässä se tuottaa liian suuren sadon, minkä seurauksena maku kärsii. Paras maaperä viininviljelyyn on mineraalipitoinen ja hyvin vettä läpäisevä. Köynnös vaatii kasvukautena paljon aurinkoa, minkä takia sään vaihtelu vaikuttaa viinisadon epätasaisuuteen. </p>
+    </article>
+
+    <article>
+        <img src="wine7.jpg" alt="wine7" class="img-thumbnail"/>
+        <h3 class="h4">Luokitus</h3>
+        <p class="lead">Suurimmat viinimaat ottivat 1900-luvulla käyttöön yksi kerrallaan omat alkuperäluokituksensa, joilla on pyritty takaamaan viinin alkuperä, valmistustapa ja käytetyt lajikkeet.</p>
+    </article>
+
+    <section>
+        <img src="wine8.jpg" alt="wine8" class="img-thumbnail"/>
+        <h3>Tarjoilu</h3>
+        <p class="lead">Viiniä nautitaan sellaisenaan tai ruoan kanssa. Viini suositellaan nauttimaan jalallisesta, ylöspäin kapenevasta viinilasista, jossa viini ei lämpene kädestä ja jossa sen tuoksu tulee parhaiten esiin.</p>
+    </section>
+        
+    <container>
+        <form>
+            <h1>Palaute</h1>
+            <label class="form-row" for="fname">Etunimi</label>
+                <input type="text"  id="fname" name="firstname" class="form-control" placeholder="Kirjoita etunimesi">
+            <label class="form-row" for="fname">Sukunimi</label>
+                <input type="text" id="lname" name="lastname" class="form-control" placeholder="Kirjoita sukunimesi">
+            <label class="form-row" for="country">Maa</label>
+            <select class="form-control"  name="country">
+                <option value="suomi">Suomi</option>
+                <option value="ruotsi">Ruotsi</option>
+                <option value="muu">Muu</option>
+            </select>
+
+            <label class="form-row" for="subject">Palautekenttä</label>
+                <textarea id="subject" class="form-control" name="subject" placeholder="Kerro palautteesi" style="height:200px"></textarea>
+            <br>
+            <button type="button" class="btn btn-outline-dark">Lähetä</button>
+
+        </form>
+    </container>
+
+    <footer>
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a class="nav-link" href="http://www.google.com">Google</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://fi.wikipedia.org/wiki/Viini">Viini</a></li>
+      </ul>
+    </footer>
+        
+    </content>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

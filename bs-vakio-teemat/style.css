@@ -1,0 +1,167 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    vertical-align: text-top;
+    width: 10em;
+    height: auto;
+    margin: 20px;
+}
+
+content {
+    display: flex;
+    flex-wrap: wrap;     
+    width:100%;
+}
+
+nav, header, main, aside, article, section, container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: table-cell; 
+    vertical-align: middle;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    height: 70px;
+    overflow: hidden;
+    background-color: 	#E5DED5;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul li {
+    color:black;
+}
+
+header {
+    background-color: #403E3C;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    vertical-align: middle;
+    height: 300px;
+}
+
+header img {
+    width: 7%;
+    height: auto;
+}
+
+main {
+    background-color: #FFF7ED
+    color:black;
+}
+aside {
+    background-color: #BFB9B2;
+    position: relative;
+    float: left;
+    order: 1;
+}
+section {
+    background-color: lightgray;
+    order: 2;
+}
+
+article {
+    background-color: #7F7B76;
+}
+
+footer {
+    width: 100%;
+    background-color: #E5DED5;
+    order:4;
+}
+
+container {
+    order: 3;
+    padding: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=button]:hover {
+    background-color: #45a049;
+    padding-top: 5px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightgray;
+    }
+    container {
+        padding: inherit;
+    }
+    
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: lightgray; 
+    }
+    article {
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: lightgray;
+    }
+    article {
+        width: 50%;
+    }
+}
+
+
+
